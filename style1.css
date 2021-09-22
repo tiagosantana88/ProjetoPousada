@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,600;1,900&display=swap');
+    *    
+       {
+            padding: 0;
+            margin: 0;
+        }
+  main 
+        {
+            overflow-x: hidden;
+        }
+  body 
+        {
+            font-family: 'Source Sans Pro', sans-serif;
+            width: 100%;
+            text-align: center;
+        }
+  .container-menu 
+        {
+            width: 100%;
+            height: 60px;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 0 2px 0 #000;
+            position: fixed;
+        }
+   .menu 
+        {
+            display: flex;
+            align-items: flex-end;
+        }
+    .menu li 
+        {
+            list-style: none;
+            text-transform: uppercase;
+        }
+    .menu a 
+        {
+            margin: 0 30px;
+            text-decoration: none;
+            color: #3d3d3d;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    .menu-topo a 
+        {
+            margin-left: 50px;
+            text-decoration: none;
+            color: #3d3d3d;
+            font-weight: 500;
+            font-size: 20px;  
+        }
+    span 
+        {
+            color: #6592c9;
+            text-transform: none;
+        }
+    .img-fundo-topo 
+        {
+            width: 100%;
+            height: 100vh;
+            background-image: url(./assets/img-fundo.jpg);
+            background-size: cover;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+   .img-conteudo 
+        {  
+            color: #fff;
+            font-size: 28px;
+            background: #0a9077b3;
+            border: 1px solid;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+    .img-conteudo h1 
+        {
+            margin: 50px 20px;
+        }
+    .img-conteudo p 
+        {
+            margin: 20px 10px;
+        }
+    .conteudo-principal h2 
+        {
+            font-size: 30px;
+            text-transform: uppercase;
+            margin: 40px 0;
+            font-weight: 500;
+        }
+    .conteudo-principal p 
+        {
+            font-size: 18px;
+            margin: 40px 0;
+            font-weight: 400;
+        }
+    .titulo-quarto-solteiro
+        {
+            width: 100%;
+            margin: 20px 0;
+            padding: 40px;
+        }
+    .titulo-quarto-solteiro h2
+        {    margin: 60px 0;
+             font-size: 30px;
+             font-weight: 500;
+             text-transform: uppercase;
+            
+        }
+    .titulo-quarto-solteiro p
+        {
+             margin: 10px 0;
+            padding: 10px 0;
+        }
+    .img-quarto-solteiro figure 
+        {
+            width: 100%;
+            margin: 15px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    .img-quarto-solteiro img
+        {
+            width: 430px;
+            margin: 0 10px
+        }
+    .desc-solteiro-lista 
+        {
+             width: 100%;
+            margin: 80px 0;
+        }
+    .desc-solteiro-lista h2 
+        {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 20px 0;   
+        }
+    .lista-solteiro-um 
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    .lista-solteiro
+        {
+            display: flex;
+            flex-flow:row wrap;
+            margin-top: 10px;
+        }
+    .lista-solteiro li 
+        {
+            margin: 0 50px;   
+            font-size: 17px;
+            font-weight: 500;
+            list-style: disc;
+            margin-bottom: 20px;
+            background-color: #e2e2e2b3;
+        }
+    .titulo-quarto-casal 
+        {
+            width: 100%;
+            margin: 20px 0;
+            padding: 20px;
+        }
+    .titulo-quarto-casal h2 
+        {
+            font-size: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+    .titulo-quarto-casal p 
+        {
+            margin: 10px 0;
+            padding: 10px 0;
+        }
+    .img-quarto-casal figure 
+        {
+            width: 100%;
+            margin: 15px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    .img-quarto-casal img 
+        {
+            width: 430px;
+            height: 268px;
+            margin: 0 10px
+        }
+    .desc-casal-lista 
+        {
+             width: 100%;
+            margin: 80px 0;
+        }
+    .desc-casal-lista h2 
+        {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 20px 0;   
+        }
+    .lista-casal-um 
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    .lista-casal 
+        {
+            display: flex;
+            flex-flow:row wrap;
+            margin-top: 10px;
+        }
+    .lista-casal li 
+        {
+            margin: 0 50px;   
+            font-size: 17px;
+            font-weight: 500;
+            list-style: disc;
+            margin-bottom: 20px;
+            background-color: #e2e2e2b3;
+        }
+    .titulo-quarto-familia 
+        {
+            width: 100%;
+            margin: 20px 0;
+            padding: 20px;
+        }
+    .titulo-quarto-familia h2 
+        {
+            font-size: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+    .titulo-quarto-familia p 
+        {
+            margin: 10px 0;
+            padding: 10px 0;
+        }
+    .img-quarto-familia figure
+        {
+            width: 100%;
+            margin: 15px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    .img-quarto-familia img 
+        {
+            width: 430px;
+            height: 268px;
+            margin: 0 10px
+        }
+    .desc-familia-lista
+        {
+             width: 100%;
+             margin: 80px 0;
+        }
+    .desc-familia-lista h2 
+        {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 20px 0;   
+        }
+    .lista-familia-um 
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    .lista-familia 
+        {
+            display: flex;
+            flex-flow:row wrap;
+            margin-top: 10px;
+        }
+    .lista-familia li 
+        {
+             margin: 0 50px;   
+            font-size: 17px;
+            font-weight: 500;
+            list-style: disc;
+            margin-bottom: 20px;
+            background-color: #e2e2e2b3;
+        }
+    .container-rodape 
+        {
+            width: 100%;
+            background-color: #00836a;
+            font-size: 12px;
+            font-weight: 600;
+            color: #fff;
+        }
+    .rodape-icon   
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    .rodape-icon li
+        {
+            margin: 20px 0;
+        }
+
+    .rodape-icon img 
+        {
+            width: 35px;
+            height: 35px;
+        }
+    .rodape-icon a 
+        {
+            text-decoration: none;
+            color: #fff;
+        } 
+    .rodape-icon p 
+        {
+            margin: 10px 0;
+        }
+    .center p 
+        {
+            font-size: 16px;
+            margin: 22px ;
+        }
+    .container-copyright
+        {
+            width: 100%;
+            height: 60px;
+            background-color: #00836a;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+    .copyright 
+        {
+            border-top: 1px solid ;
+            width: 50%;
+        }
+    .rodape li 
+        {
+            list-style: none;
+            text-transform: uppercase;
+        }
+    .copyright p 
+        {
+            margin: 20px;
+        }
+    .menu a:hover
+        {
+            border-bottom: 3px solid #00836a;
+        }
