@@ -8,6 +8,9 @@
         {
             overflow-x: hidden;
         }
+        html {
+            scroll-behavior: smooth;
+        }
   body 
         {
             font-family: 'Source Sans Pro', sans-serif;
@@ -102,7 +105,7 @@
         {
             width: 100%;
             margin: 20px 0;
-            padding: 40px;
+            padding: 40px 0;
         }
     .titulo-quarto-solteiro h2
         {    margin: 60px 0;
@@ -362,4 +365,470 @@
     .menu a:hover
         {
             border-bottom: 3px solid #00836a;
+        }
+        @media only screen and (max-width: 1024px) {
+            .img-fundo-topo {
+                width: 100%;
+                height: 100vh;
+            }
+            .titulo-quarto-solteiro {
+                width: 100%;
+                max-width: 1024px;
+                padding: 0;
+                margin: 0;
+            }
+            .titulo-quarto-solteiro h2 {
+                padding: 70px;
+            }
+            .img-quarto-solteiro figure {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .img-quarto-solteiro img {
+                width: 300px;
+                margin: 10px;
+            }
+            .titulo-quarto-casal {
+                width: 100%;
+                padding: 0 ;
+            }
+            .img-quarto-casal figure {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .img-quarto-casal img {
+                width: 300px;
+                height: 173px;
+                margin: 10px;
+            }
+            .img-quarto-familia figure {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .img-quarto-familia img {
+                width: 300px;
+                height: 173px;
+                margin: 10px;
+            } 
+        }
+        @media only screen and (max-width: 768px) {
+            .titulo-quarto-solteiro {
+                width: 100%;
+                max-width:  768px;
+                margin: 0;
+                padding: 0;
+            }
+            .img-quarto-solteiro figure {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .img-quarto-solteiro img {
+                width: 360px;
+                margin: 10px;
+            }
+            .titulo-quarto-casal {
+                width: 100%;
+                padding: 0 ;
+            }
+            .img-quarto-casal figure {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .img-quarto-casal img {
+                width: 360px;
+                height: 173px;
+                margin: 10px;
+            }
+            .img-quarto-familia figure {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .img-quarto-familia img {
+                width: 360px;
+                height: 173px;
+                margin: 10px;
+            }
+            .rodape-icon p {
+                display: none;
+            }
+            .rodape-icon img {
+                margin: 0 30px;
+            }
+        }
+        @media only screen and (max-width: 425px) {
+            .menu-topo a {
+             font-size: 1em;
+             font-weight: 500;
+             margin: 0 10px 0 0;
+            }
+            .menu a {
+             margin: 0 14px;
+             font-size: 0.9em;
+             font-weight: 500;
+            }
+            .container-menu {
+                max-width: 425px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .img-fundo-topo {
+                width: 100%;
+                height: 50vh;
+            }
+            .img-conteudo  {
+                width: 80%;
+                padding: 0;
+                margin:0;
+                font-size: 14px;
+            }
+            .img-conteudo h1 {
+                margin: 10px 5px;
+            }
+            .titulo-quarto-solteiro {
+                width: 100%;
+                max-width: 425px;
+                margin: 0;
+                padding: 0;
+            }
+            .titulo-quarto-solteiro h2 {
+                font-size: 1.4em;
+                margin: 10px 0 2px 0;
+                padding: 20%;
+            }
+            .titulo-quarto-solteiro p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-solteiro figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-solteiro img {
+                width: 340px;
+                margin: 20px;
+            }
+            .titulo-quarto-casal {
+                width: 100%;
+                padding: 0 ;
+            }
+            .titulo-quarto-casal h2 {
+                font-size: 1.4em;
+                margin: 50px 0;
+                padding: 0;
+            }
+            .titulo-quarto-casal p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-casal figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-casal img {
+                width: 340px;
+                height: 173px;
+                margin: 20px;
+            }
+            .titulo-quarto-familia {
+                width: 100%;
+                max-width: 425px;
+                margin: 0;
+                padding: 0;
+            }
+            .titulo-quarto-familia h2 {
+                font-size: 1.4em;
+                margin: 50px 0;
+                padding: 0;
+            }
+            .titulo-quarto-familia p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-familia figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-familia img {
+                width: 340px;
+                height: 173px;
+                margin: 20px;
+            }
+            .rodape-icon    {
+                width: 100%;
+                height: 60px;
+                display: flex;
+                margin-top: 20px;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+           }
+           .rodape-icon img {
+               width: 25px;
+               height: 25px;
+               margin: 30px;
+           }
+           .copyright {
+               width: 100%;
+           }
+           .copyright p {
+               font-size: 0.7em;
+               text-align: center;
+           }
+           .rodape-icon p {
+               display: none;
+           }
+        }
+        @media only screen and (max-width: 375px) {
+            .menu-topo a {
+                display: none;
+            }
+            .menu a {
+                color: #6592c9;
+                margin: 0 25px;
+                font-size: 0.9em;
+               font-weight: 600;
+            }
+            .container-menu {
+                max-width: 375px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .img-fundo-topo {
+                width: 100%;
+                height: 50vh;
+            }
+            .img-conteudo  {
+                width: 80%;
+                padding: 0;
+                margin:0;
+                font-size: 14px;
+            }
+            .img-conteudo h1 {
+                margin: 10px 5px;
+            }
+            .titulo-quarto-solteiro {
+                width: 100%;
+                max-width: 375px;
+                margin: 0;
+                padding: 0;
+            }
+            .titulo-quarto-solteiro h2 {
+                font-size: 1.4em;
+                margin: 10px 0 2px 0;
+                padding: 20%;
+            }
+            .titulo-quarto-solteiro p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-solteiro figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-solteiro img {
+                width: 280px;
+                margin: 20px;
+            }
+            .titulo-quarto-casal {
+                width: 100%;
+                padding: 0 ;
+            }
+            .titulo-quarto-casal h2 {
+                font-size: 1.4em;
+                margin: 50px 0;
+                padding: 0;
+            }
+            .titulo-quarto-casal p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-casal figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-casal img {
+                width: 280px;
+                height: 173px;
+                margin: 20px;
+            }
+            .titulo-quarto-familia {
+                width: 100%;
+                max-width: 375px;
+                margin: 0;
+                padding: 0;
+            }
+            .titulo-quarto-familia h2 {
+                font-size: 1.4em;
+                margin: 50px 0;
+                padding: 0;
+            }
+            .titulo-quarto-familia p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-familia figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-familia img {
+                width: 280px;
+                height: 173px;
+                margin: 20px;
+            }
+
+            .rodape-icon    {
+                width: 100%;
+                height: 60px;
+                display: flex;
+                margin-top: 20px;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+           }
+           .rodape-icon img {
+               width: 25px;
+               height: 25px;
+               margin: 30px;
+           }
+           .copyright {
+               width: 100%;
+           }
+           .copyright p {
+               font-size: 0.7em;
+               text-align: center;
+           }
+           .rodape-icon p {
+               display: none;
+           }
+        }
+        @media only screen and (max-width: 320px) {
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .menu-topo a {
+                display: none;
+            }
+            .menu a {
+                color: #6592c9;
+                margin-right: 12px;
+                font-size: 0.9em;
+               font-weight: 600;
+            }
+            .container-menu {
+                max-width: 320px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .img-fundo-topo {
+                width: 100%;
+                height: 50vh;
+            }
+            .img-conteudo  {
+                width: 80%;
+                padding: 0;
+                margin:0;
+                font-size: 14px;
+            }
+            .img-conteudo h1 {
+                margin: 10px 5px; 
+            }
+            .titulo-quarto-solteiro {
+                width: 100%;
+                max-width: 320px;
+                padding: 0;
+                margin: 0;
+            }
+            .titulo-quarto-solteiro h2 {
+                font-size: 1.4em;
+                margin: 50px 0 20px 0;
+                padding: 40px;
+            }
+            .titulo-quarto-solteiro p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-solteiro figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-solteiro img {
+                width: 260px;
+                margin: 20px;
+            }
+            .titulo-quarto-casal {
+                width: 100%;
+                padding: 0 ;
+            }
+            .titulo-quarto-casal h2 {
+                font-size: 1.4em;
+                margin: 50px 0;
+                padding: 0;
+            }
+            .titulo-quarto-casal p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-casal figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-casal img {
+                width: 260px;
+                height: 173px;
+                margin: 20px;
+            }
+            .titulo-quarto-familia {
+                width: 100%;
+                max-width: 320px;
+                margin: 0;
+                padding: 0;
+            }
+            .titulo-quarto-familia h2 {
+                font-size: 1.4em;
+                margin: 50px 0;
+                padding: 0;
+            }
+            .titulo-quarto-familia p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+            .img-quarto-familia figure {
+                display: flex;
+                flex-flow: column wrap;
+            }
+            .img-quarto-familia img {
+                width: 260px;
+                height: 173px;
+                margin: 20px;
+            }
+            .rodape-icon    {
+                width: 100%;
+                height: 60px;
+                display: flex;
+                margin-top: 20px;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+           }
+           .rodape-icon img {
+               width: 25px;
+               height: 25px;
+               margin: 0 20px;
+           }
+           .copyright {
+               width: 100%;
+           }
+           .copyright p {
+               font-size: 0.7em;
+               text-align: center;
+           }
+           .rodape-icon p {
+               display: none;
+           }
         }
